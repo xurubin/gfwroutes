@@ -1,4 +1,3 @@
-#!/bin/sh
 route add -net 1.0.0.0/24 gw 10.20.10.2 dev br-lan
 route add -net 1.1.1.0/24 gw 10.20.10.2 dev br-lan
 route add -net 1.2.3.0/24 gw 10.20.10.2 dev br-lan
@@ -6,6 +5,7 @@ route add -net 104.132.20.0/24 gw 10.20.10.2 dev br-lan
 route add -net 104.132.24.0/24 gw 10.20.10.2 dev br-lan
 route add -net 104.132.34.0/24 gw 10.20.10.2 dev br-lan
 route add -net 104.132.7.0/24 gw 10.20.10.2 dev br-lan
+route add -net 104.132.8.0/24 gw 10.20.10.2 dev br-lan
 route add -net 104.133.0.0/24 gw 10.20.10.2 dev br-lan
 route add -net 104.135.128.0/18 gw 10.20.10.2 dev br-lan
 route add -net 104.154.0.0/15 gw 10.20.10.2 dev br-lan
@@ -183,6 +183,7 @@ route add -net 199.47.216.0/22 gw 10.20.10.2 dev br-lan
 route add -net 199.47.216.0/24 gw 10.20.10.2 dev br-lan
 route add -net 199.47.217.0/24 gw 10.20.10.2 dev br-lan
 route add -net 199.47.219.0/24 gw 10.20.10.2 dev br-lan
+route add -net 2.120.0.0/13 gw 10.20.10.2 dev br-lan
 route add -net 207.126.144.0/24 gw 10.20.10.2 dev br-lan
 route add -net 207.126.145.0/24 gw 10.20.10.2 dev br-lan
 route add -net 207.126.146.0/24 gw 10.20.10.2 dev br-lan
@@ -359,6 +360,7 @@ route add -net 70.32.146.0/24 gw 10.20.10.2 dev br-lan
 route add -net 70.32.148.0/23 gw 10.20.10.2 dev br-lan
 route add -net 72.14.192.0/18 gw 10.20.10.2 dev br-lan
 route add -net 72.14.244.0/23 gw 10.20.10.2 dev br-lan
+route add -net 74.114.24.0/21 gw 10.20.10.2 dev br-lan
 route add -net 74.125.0.0/16 gw 10.20.10.2 dev br-lan
 route add -net 74.125.0.0/18 gw 10.20.10.2 dev br-lan
 route add -net 74.125.117.0/24 gw 10.20.10.2 dev br-lan
