@@ -25,6 +25,7 @@ AS = [
 
 IPs = [
 ## "1.2.3.4/32"
+"2.120.0.0/13",
 ]
 
 Blacklists = set([
@@ -47,7 +48,7 @@ for asn in AS:
         prefixes.append(item['prefix'])
 
 prefixes.sort()
-print "#!/bin/sh"
+#print "#!/bin/sh"
 for prefix in prefixes:
     if not prefix in Blacklists:
         print "route add -net %s gw 10.20.10.2 dev br-lan" % prefix
